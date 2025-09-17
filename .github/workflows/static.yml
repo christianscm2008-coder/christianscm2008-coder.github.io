@@ -1,0 +1,130 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vexu</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+      background: linear-gradient(180deg, #0a0a0f, #1a1a2e);
+      color: #e0e0e0;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #111;
+      border-bottom: 2px solid #ff2e2e;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ff2e2e;
+      letter-spacing: 5px;
+      text-shadow: 0 0 20px rgba(255, 50, 50, 0.8);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: rgba(20, 20, 30, 0.9);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 50, 50, 0.4);
+    }
+
+    h2 {
+      color: #ff4747;
+      border-left: 5px solid #ff4747;
+      padding-left: 10px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 40, 40, 0.7);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 60, 60, 1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      border-top: 2px solid #ff2e2e;
+      background: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VEXU</h1>
+  </header>
+
+  <section>
+    <h2>Introducción</h2>
+    <p>
+      Vexu es más que una marca de ropa; es el resultado de una idea insólita, nacida en un entorno tan cotidiano como un simple bus de transporte público. En ese instante, comprendimos el potencial de fusionar la moda con la tecnología para crear algo realmente innovador.
+    </p>
+    <p>
+      Nuestro objetivo es transformar la forma en que nos vestimos, llevando la tecnología vestible a un nuevo nivel. Nuestros abrigos inteligentes son el fruto de una pasión por la innovación. Cada prenda está equipada con sensores que miden tu ritmo cardíaco, oxígeno en sangre y pasos, brindándote información valiosa sobre tu bienestar en tiempo real.
+    </p>
+    <p>
+      Esto es posible gracias a un sistema integrado con una placa Arduino Omega, que sirve como el cerebro de cada abrigo, permitiendo que los sensores y el software se comuniquen de manera fluida y precisa.
+    </p>
+
+    <div class="gallery">
+      <img src=" https://scontent.fgye18-1.fna.fbcdn.net/v/t39.30808-6/549516572_122104400463010646_5791055113789766514_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNB0iBHyp9AeAQEE_VsLaNgOvt1xWMYkGA6-3XFYxiQSdrGgtIXfXwqWUt9c4QV84EmW5rn9MHDgx7DuoSBPok&_nc_ohc=piLxNPdTN-kQ7kNvwHJk-0N&_nc_oc=AdlsTWOXRHYSVl5F6C_KybDNs1MGoz6_OtDPP2cpquyAhH-h_riqv6eC_z4Na1DaVks&_nc_zt=23&_nc_ht=scontent.fgye18-1.fna&_nc_gid=KsgWhVVB4RO2d4i9Zafv3w&oh=00_AfYC7FNvbaRYzXFvUWiw5uJ8DmF0HuM6LLyuV_l9l90URQ&oe=68D08C62" alt="Abrigo Vexu 1">
+      <img src="imagen2.jpg" alt="Abrigo Vexu 2">
+      <img src="imagen3.png" alt="Abrigo Vexu 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>Inspiración</h2>
+    <p>
+      Al igual que mundos fantásticos como los de los videojuegos o estilos artísticos como Arcane, Vexu busca transmitir una estética inmersiva que mezcle lo tecnológico con lo humano. Cada detalle, desde los tonos rojos y negros de nuestras prendas hasta la integración de sensores, refleja esta fusión.
+    </p>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/Hollow_Knight_first_area.png" alt="Estética futurista" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Conclusión</h2>
+    <p>
+      Al elegir un abrigo Vexu, no solo estás adquiriendo una pieza de moda de vanguardia, sino que también estás apoyando una visión y un sueño. Cada compra es una ayuda directa para un joven que, impulsado por una idea audaz, busca seguir adelante y construir un futuro donde la tecnología y la moda convivan en armonía.
+    </p>
+    <p style="font-weight:600; color:#ff4747; font-size:1.2rem;">
+      Viste el futuro, viste Vexu.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Vexu - Moda y tecnología en perfecta armonía
+  </footer>
+</body>
+</html>
